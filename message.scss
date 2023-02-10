@@ -1,0 +1,84 @@
+@use "../../variables" as *;
+
+.message{
+  & > h4{
+    font-family: 'Noto Serif JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  .h6{
+    font-family: 'Noto Serif JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    width: 160px;
+    height: 30px;
+  }
+  .sign{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 84px;
+    height: 28px;
+  }
+  .up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 52px 20px;
+    position: absolute;
+    width: 327px;
+    height: 204px;
+    left: 24px;
+    top: 24px;
+  }
+  .small{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 20px;
+    position: absolute;
+    width: 200px;
+    height: 128px;
+    left: 87.5px;
+    top: 276px;
+  }
+  .big{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    width: 84px;
+    height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+}
