@@ -1,0 +1,68 @@
+@use "../../variables" as *;
+
+.card{
+    & > h2{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .all{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: url(image.png);
+    }
+    .one{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+    }
+    .two{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        color: #442606;
+    }
+    .text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 0px 30px;
+        width: 160px;
+        height: 64px;
+    }
+    .white{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+        width: 224px;
+        height: 183px;
+        background: #F5F5F5;
+    }
+    .button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 16px;
+        width: 150px;
+        height: 55px;
+        background: #000000;
+    }
+}
