@@ -1,0 +1,359 @@
+@use "../../variables" as *;
+
+.plan{
+    & > .one{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 220px;
+        height: 69px;
+        background: #A19283;
+    }
+    .text{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0px;
+        width: 220px;
+        height: 142px;
+        background: #ECE9E6;
+        border: 1px solid #DDDDDD;
+    }
+    .sub{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px 0px 16px;
+        gap: 4px;
+        width: 124px;
+        height: 74px;
+    }
+    .must{
+        display: flex;
+        flex-direction: left;
+        align-items: flex-start;
+        padding: 0px;
+        width: 12px;
+        height: 29px;
+    }
+    .en{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-start;
+        padding: 0px;
+        color: #442606;
+        width: 12px;
+        height: 29px;
+    }
+    .sen{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+        display: flex;
+        align-items: center;
+        color: #442606;
+    }
+    .month{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .three{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        width: 220px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .zero{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .four{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        width: 220px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .hi{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .five{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        width: 220px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .sat{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .six{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        width: 220px;
+        height: 80px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .time{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+.first{
+    & > .part{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        position: absolute;
+        width: 220px;
+        height: 461px;
+        left: 24px;
+        top: 554px;
+        right: 24px;
+        border: 5px solid #442606;
+    }
+    .sin{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 220px;
+        height: 64px;
+        background: #442606;
+    }
+    .bin{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .cos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0px;
+        width: 220px;
+        height: 142px;
+        background: #ECE9E6;
+        border: 1px solid #DDDDDD;
+    }
+    .tan{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px 0px 16px;
+        gap: 4px;
+        width: 124px;
+        height: 74px;
+    }
+    .ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        width: 12px;
+        height: 29px;
+    }
+    .late{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        color: #442606;
+        width: 12px;
+        height: 29px;
+    }
+    .bit{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+        display: flex;
+        align-items: center;
+        color: #442606;
+    }
+    .eth{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .today{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        width: 220px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .earth{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .zely{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        width: 220px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .corn{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .side{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        width: 220px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .front{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .back{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        width: 220px;
+        height: 80px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .long{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }   
+}
