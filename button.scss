@@ -1,0 +1,27 @@
+@use "../../variables" as *;
+
+.button{
+    & > h2 {
+      font-family: 'Noto Sans JP';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+    }
+    .button{
+      justify-content: center;
+      flex-direction: row;
+      padding: 0px 16px;
+      align-items: center;
+      display: flex;
+      position: absolute;
+      width: 200px;
+      height: 55px;
+      left: 24px;
+      top: 24px;
+      background: #000000; 
+    }
+}
