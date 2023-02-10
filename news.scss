@@ -1,0 +1,221 @@
+@use "../../variables" as *;
+
+.news{
+    & > h2 {
+        display: flex;
+        align-items: center;
+        font-size: $fontsize-l;
+        font-family: $fontfamily-mincho;
+        margin-bottom: 32px;
+    }
+    .caption {
+        font-size: $fontsize-m;
+        font-family: $fontfamily-gothic;
+        font-weight: 400;
+        margin-left: 16px;
+      }
+    .back{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 0px 32px;
+        width: 185px;
+        height: 89px;
+    }
+    .list{
+        width: 460px;
+        height: 421px;
+    }
+    .book{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        color: #999999;
+    }
+    .twe{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        position: absolute;
+        width: 460px;
+        height: 85px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .first{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .eig{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        position: absolute;
+        height: 85px;
+        left: 0px;
+        top: 84px;
+        width: 460px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .ray{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        color: #999999;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        position: absolute;
+        width: 460px;
+        height: 85px;
+        left: 0px;
+        top: 84px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .te{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        position: absolute;
+        width: 460px;
+        height: 85px;
+        left: 0px;
+        top: 168px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .faq{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        color: #999999;
+    }
+    .third{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .pes{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        position: absolute;
+        width: 460px;
+        height: 85px;
+        left: 0px;
+        top: 252px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .inport{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        color: #999999;
+    }
+    .four{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .up{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        position: absolute;
+        width: 460px;
+        height: 85px;
+        left: 0px;
+        top: 336px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+    .tama{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        color: #999999;
+    }
+    .five{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .small{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        width: 460px;
+        height: 20px;
+    }
+    .last{
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .right{
+        width: 14px;
+        height: 14px;
+        border: 1px solid #000000;
+    }
+}
