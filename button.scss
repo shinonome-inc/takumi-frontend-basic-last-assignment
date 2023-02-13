@@ -1,7 +1,7 @@
 @use "../../variables" as *;
 
 .button{
-    & > h2 {
+    & > h2{
       font-family: 'Noto Sans JP';
       font-style: normal;
       font-weight: 400;
@@ -11,10 +11,10 @@
       align-items: center;
       color: #FFFFFF;
     }
-    .button{
+    .bri{
       justify-content: center;
       flex-direction: row;
-      padding: 0px 16px;
+      padding: 1px 6px;
       align-items: center;
       display: flex;
       position: absolute;
